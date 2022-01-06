@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widt, initial-scale=1.0 ">
+        <title>Fundamentos JavasScript</title>
+        
+    </head>
+    <script src="13_javascript.js" > </script>
+<body>
+   <h1>Operadores</h1>
+
+   <div >
+   <p>// Uso de == vs ===.<br>
+    Hay veces que yo quiero comparar una variable con un valor numérico,<br> por ejemplo ( a == 7), pero esa variable es un numero que ha ingresado el usuario por el teclado, <br>o la estoy  sacando de algún string, y yo quiero saber si eso es un 7, no me importa el tipo de dato. En ese caso utilizar === no me estaría ayudando, <br>es decir que depende del caso es mas útil un operador que otro.
+    <br>
+    // Uso de i++ vs ++i.<br>
+    i++, primero toma la variable para la operación, y luego la incrementa en 1.<br>
+    ++i, primero hace el incremento y luego hace la operación con el resultado.<br>
+    Muchas veces, dependiendo de lo que queremos lograr en una función, <br>por ejemplo el caso de un juego de naipes que estuve realizando,<br> yo quería saber de quien fue el ultimo movimiento, <br>y la variable turno es la que me acumulaba un valor que me permite saber quien era el próximo en jugar, <br>para lo que implementar el ++turno, me ahorró muchas líneas de código. Era una función que se aplicaba a el jugador que aun no había jugado, mientras aun jugaba el jugador anterior. Nuevamente, si los utilizamos de manera inteligente, son muy útiles, dependiendo el caso.
+    // operador %.<br>
+    Este operador al principio no le vi sentido, <br>luego con algo de conocimiento en matemática (series y sucesiones) y un poco de practica e intentos de resolver problemas con funciones en lenguaje C, <br>este operador vino a convertirse en mi favorito, <br>es muy muy muy util, me gustaría dejarles un ejemplo: imaginen que hay una vaiable que llamaremos contador, <br>que cada vez que alguien juega una carta, esta aumenta, contador++. Imaginen que hay 3 jugadores, <br>y tiran de a una carta por vez, y ya se han tirado pues 22 cartas, o sea que contador vale 22, <br>quien tiró la ultima? pues el  es contador%3. <br>Y este es solo un pequeño ejemplo, pero sirve para determinar muchas situaciones similares.
+    Espero haber aportado algo útil, un abrazo para todos!</p>
+</div>
+</body>
+
+</html>
